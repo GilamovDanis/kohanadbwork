@@ -3,11 +3,7 @@
 
 if($_SERVER['REMOTE_ADDR'] != '127.0.0.1' && $_SERVER['REMOTE_ADDR'] != '::1'){ 
 /**
-<<<<<<< HEAD
-* РќР°СЃС‚СЂРѕР№РєРё РґР»СЏ С…РѕСЃС‚РёРЅРіР°
-=======
-* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
->>>>>>> dd05f4ac813b40773fe2d8ede4d005752112dbf3
+* Настройки для хостинга
 */
 return array
 (
@@ -28,9 +24,9 @@ return array
 			 * Ports and sockets may be appended to the hostname.
 			 */
 			'hostname'   => 'localhost',
-			'database'   => '',
-			'username'   => '',
-			'password'   => '',
+			'database'   => 'cmspegasru_kurs',
+			'username'   => 'cmspegasru_kurs',
+			'password'   => '7058kurs',
 			'persistent' => FALSE,
 		),
 		'table_prefix' => '',
@@ -66,11 +62,7 @@ return array
 
 } else {
 /**
-<<<<<<< HEAD
-* РќР°СЃС‚СЂРѕР№РєРё РґР»СЏ Р»РѕРєР°Р»СЊРЅРѕРіРѕ СЃРµСЂРІРµСЂР°
-=======
-* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
->>>>>>> dd05f4ac813b40773fe2d8ede4d005752112dbf3
+* Настройки для локального сервера
 */
 
 return array

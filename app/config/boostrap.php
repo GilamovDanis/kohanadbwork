@@ -1,32 +1,32 @@
 <?php defined('SYSPATH') OR die('No direct access allowed.');
 
 /**
- * Íàñòğîéêè äëÿ áàçîâîé èíèöèàëèçàöèè(ïî óìîë÷àíèş)
+ * ĞĞ°ÑÑ‚Ñ€Ğ¾Ğ¹ĞºĞ¸ Ğ´Ğ»Ñ Ğ±Ğ°Ğ·Ğ¾Ğ²Ğ¾Ğ¹ Ğ¸Ğ½Ğ¸Ñ†Ğ¸Ğ°Ğ»Ğ¸Ğ·Ğ°Ñ†Ğ¸Ğ¸(Ğ¿Ğ¾ ÑƒĞ¼Ğ¾Ğ»Ñ‡Ğ°Ğ½Ğ¸Ñ)
  */
 return array
 (
 	/**
-	* Ñîëü äëÿ Cookie
+	* Ğ¡Ğ¾Ğ»ÑŒ Ğ´Ğ»Ñ Cookie
 	*/
 	'cookiesalt' => '421341kd;sakda;dasdadkadas',
         
      /**
-     * Âğåìåííàÿ çîíà 
+     * Ğ’Ñ€ĞµĞ¼ĞµĞ½Ğ½Ğ°Ñ Ğ·Ğ¾Ğ½Ğ° 
      */
      'timezone'  => 'Europe/Moscow',
         
      /**
-     * ßçûê
+     * Ğ¯Ğ·Ñ‹Ğº
      */
      'lang'  => 'ru-ru',
         
       /**
-      * Óğîâåíü îøèáîê (Production|development)
+      * Ğ£Ñ€Ğ¾Ğ²ĞµĞ½ÑŒ Ğ¾ÑˆĞ¸Ğ±Ğ¾Ğº (Production|development)
       */
       'error_level' => Kohana::DEVELOPMENT,
 	
 	/**
-	 * Ïîäêëş÷àåìûå Ìîäóëè
+	 * ĞŸĞ¾Ğ´ĞºĞ»ÑÑ‡Ğ°ĞµĞ¼Ñ‹Ğµ ĞœĞ¾Ğ´ÑƒĞ»Ğ¸
 	 */
 	'modules' => array(	
 		/**

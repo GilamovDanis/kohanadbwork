@@ -3,7 +3,7 @@
 
 if($_SERVER['REMOTE_ADDR'] != '127.0.0.1' && $_SERVER['REMOTE_ADDR'] != '::1'){ 
 /**
-* Настройки для хостинга
+* РќР°СЃС‚СЂРѕР№РєРё РґР»СЏ С…РѕСЃС‚РёРЅРіР°
 */
 return array
 (
@@ -24,9 +24,9 @@ return array
 			 * Ports and sockets may be appended to the hostname.
 			 */
 			'hostname'   => 'localhost',
-			'database'   => 'cmspegasru_kurs',
-			'username'   => 'cmspegasru_kurs',
-			'password'   => '7058kurs',
+			'database'   => '',
+			'username'   => '',
+			'password'   => '',
 			'persistent' => FALSE,
 		),
 		'table_prefix' => '',
@@ -62,7 +62,7 @@ return array
 
 } else {
 /**
-* Настройки для локального сервера
+* РќР°СЃС‚СЂРѕР№РєРё РґР»СЏ Р»РѕРєР°Р»СЊРЅРѕРіРѕ СЃРµСЂРІРµСЂР°
 */
 
 return array
